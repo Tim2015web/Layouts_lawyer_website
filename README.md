@@ -1,12 +1,12 @@
 # Layouts - Lawyer Website
 
-[Show the project](https://tim2015web.github.io/StartTemplate_gulp/)
+[Show the project](https://tim2015web.github.io/Layouts_lawyer_website/)
 
 Layout. Layouts - Lawyer Website
 
 ---
 
-[Показать проект](https://tim2015web.github.io/StartTemplate_gulp/)
+[Показать проект](https://tim2015web.github.io/Layouts_lawyer_website/)
 
 Вёрстка. Layouts - Lawyer Website
 

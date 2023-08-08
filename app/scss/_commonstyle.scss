@@ -1,5 +1,33 @@
 /*Common style*/
 
-body{
-    font-family: 'Nunito Sans', sans-serif;
+$basic-font: 'Nunito Sans', sans-serif;
+
+$color-blue: #4F8FF0;
+$color-bg: #010101;
+
+$text-main: 400 1em/1.5 $basic-font;
+
+
+body {
+    font-family: $basic-font;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    height: 100%;
+    
+
+    @media (max-width: 1320px) {
+        padding: 0 20px;
+    }
+
+    @media (min-width: 391px) and (max-width: 834px) {
+        max-width: 696px;
+    }
+
+    @media (max-width: 390px) {
+        max-width: 342px;
+        padding: 10px;
+    }
 }

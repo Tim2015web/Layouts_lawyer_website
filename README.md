@@ -10,6 +10,10 @@ Layout. Layouts - Lawyer Website
 
 Вёрстка. Layouts - Lawyer Website
 
+Оригинальный макет - https://www.figma.com/file/eTEMtLsjPBGYZwP5fpLnkq/lawyer_website?type=design&node-id=1-2&mode=design&t=2PHPwYDynRS0fAvi-0/
+
+
+
 ---
 
 <img src="screenshot.jpg" title="Screenshot" alt="HTML"/>

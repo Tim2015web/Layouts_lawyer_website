@@ -3,11 +3,8 @@ jQuery(document).ready(function () {
     // Функционал бургера
     $('#showModal, #closeModal').click(function () {
         $('#modal').toggleClass('header-modal-menu_show');
+        $('body').toggleClass('body_lock');
     });
-
-
-
-    //$('#closeModal').removeClass('newClass')
 
     // Slick Slider
     $('.slider').slick({

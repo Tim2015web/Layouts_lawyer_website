@@ -114,14 +114,14 @@ body {
             button {
                 width: 4px;
                 height: 24px;
-                background-image: url('../images/src/sprite/dots-false.svg');
+                background-image: url('../images/dots-false.svg');
             }
         }
 
         li.slick-active {
             button {
                 height: 40px;
-                background-image: url('../images/src/sprite/dots-true.svg');
+                background-image: url('../images/dots-true.svg');
 
             }
         }
@@ -155,14 +155,14 @@ body {
     }
 
     .slick-arrow.slick-prev {
-        background: url('../images/sprite.svg#arrows-left');
+        background: url('../images/arrows-left.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 20px;
     }
 
     .slick-arrow.slick-next {
-        background-image: url('../images/sprite.svg#arrows-right');
+        background-image: url('../images/arrows-right.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 20px;

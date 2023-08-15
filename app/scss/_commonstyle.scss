@@ -12,8 +12,12 @@ body {
     font-family: $basic-font;
 }
 
-.body_lock {
-    overflow: hidden;
+@media (max-width: 834px) {
+    .body_lock {
+        overflow: hidden;
+        position: fixed;
+        user-zoom: fixed;
+    }
 }
 
 .container {

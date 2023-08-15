@@ -16,7 +16,7 @@ body {
     max-width: 1320px;
     margin: 0 auto;
     height: 100%;
-    
+
 
     @media (max-width: 1320px) {
         padding: 0 20px;
@@ -29,5 +29,142 @@ body {
     @media (max-width: 390px) {
         max-width: 342px;
         padding: 10px;
+    }
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media (min-width: 471px) and (max-width: 834px) {
+        font-size: 24px;
+    }
+
+    @media (max-width: 470px) {
+        font-size: 18px;
+    }
+
+    & span {
+        margin-top: 8px;
+
+        color: $color-blue;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 150%;
+
+        @media (min-width: 471px) and (max-width: 834px) {
+            font-size: 50px;
+        }
+    
+        @media (max-width: 470px) {
+            font-size: 30px;
+        }
+    }
+}
+
+.button {
+    display: block;
+    height: 49px;
+    padding: 16px 24px;
+    border: 2px solid $color-blue;
+    background: $color-blue;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+// Slick Slider
+.slider {
+    position: relative;
+    width: 100%;
+
+    .slick-list {
+        overflow: hidden;
+    }
+
+    .slick-track {
+        display: flex;
+    }
+}
+
+.dots {
+    height: 40px;
+    font-size: 0;
+
+    .slick-dots {
+        display: flex;
+        align-items: end;
+
+        li {
+            margin-right: 8px;
+
+            button {
+                width: 4px;
+                height: 24px;
+                background-image: url('../images/src/sprite/dots-false.svg');
+            }
+        }
+
+        li.slick-active {
+            button {
+                height: 40px;
+                background-image: url('../images/src/sprite/dots-true.svg');
+
+            }
+        }
+    }
+}
+
+.arrows {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 31px;
+        left: calc(50% - 8px);
+        top: calc(50% - 15.5px);
+        background: url('../images/sprite.svg#arrows-center');
+        background-repeat: no-repeat;
+    }
+
+    .slick-arrow {
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        background-color: transparent;
+    }
+
+    .slick-arrow.slick-prev {
+        background: url('../images/sprite.svg#arrows-left');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 20px;
+    }
+
+    .slick-arrow.slick-next {
+        background-image: url('../images/sprite.svg#arrows-right');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 20px;
     }
 }

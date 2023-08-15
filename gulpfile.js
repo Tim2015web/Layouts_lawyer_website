@@ -121,6 +121,8 @@ function building() {
         '!app/images/**/*.html',
         'app/images/*.*',       
         'app/fonts/*.*',
+        'app/js/jquery-3.7.0.min.js',
+        'app/js/slick.min.js',
         'app/js/main.min.js',
         'app/*.html'
 

@@ -1,7 +1,21 @@
-// Функционал бургера
-document.querySelector('#showModal').addEventListener('click', () => {
-    document.querySelector('#modal').classList.add('header-modal-menu_show');
-});
-document.querySelector('#closeModal').addEventListener('click', () => {
-    document.querySelector('#modal').classList.remove('header-modal-menu_show');
+// jQuery
+jQuery(document).ready(function () {
+    // Функционал бургера
+    $('#showModal, #closeModal').click(function () {
+        $('#modal').toggleClass('header-modal-menu_show');
+    });
+
+
+
+    //$('#closeModal').removeClass('newClass')
+
+    // Slick Slider
+    $('.slider').slick({
+        arrows: true,
+        dots: true,
+        slidesToShow: 1,
+        autoplay: true,
+        appendArrows: $('.arrows'), // Внешний блок со стрелками
+        appendDots: $('.dots') // Внешний блок с точками
+    })
 });

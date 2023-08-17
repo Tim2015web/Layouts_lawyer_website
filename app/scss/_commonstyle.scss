@@ -3,10 +3,11 @@
 $basic-font: 'Nunito Sans', sans-serif;
 
 $color-blue: #4F8FF0;
-$color-bg: #010101;
+$color-basic: #222222;
+$color-bg-dark: #010101;
+$color-bg-light: #F7F7F7;
 
 $text-main: 400 1em/1.5 $basic-font;
-
 
 body {
     font-family: $basic-font;
@@ -76,6 +77,36 @@ body {
 
         @media (max-width: 470px) {
             font-size: 30px;
+        }
+    }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+    & h2 {
+        color: $color-basic;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 150%;
+        text-transform: uppercase;
+
+        @media (min-width: 391px) and (max-width: 834px) {
+            font-size: 24px;
+        }
+
+        @media (max-width: 390px) {
+            font-size: 20px;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            background: $color-blue;
+            width: 50px;
+            height: 3px;
+            margin: 10px auto 0 auto;
         }
     }
 }

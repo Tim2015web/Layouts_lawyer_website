@@ -319,11 +319,13 @@
             @media (max-width: 1050px) {
                 flex-wrap: nowrap;
                 overflow-x: scroll;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
             }
 
-            &::-webkit-scrollbar {
-                display: none;
-            }
+
         }
 
         &__card {
@@ -527,16 +529,16 @@
             @media (min-width: 391px) and (max-width: 834px) {
                 flex-wrap: nowrap;
                 overflow-x: scroll;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
             }
 
             @media (max-width: 390px) {
                 margin-top: 24px;
-            }
 
-            &::-webkit-scrollbar {
-                display: none;
             }
-
         }
 
         &__card {

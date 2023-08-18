@@ -3,6 +3,7 @@
 $basic-font: 'Nunito Sans', sans-serif;
 
 $color-blue: #4F8FF0;
+$color-gray: #E6E6E6;
 $color-basic: #222222;
 $color-bg-dark: #010101;
 $color-bg-light: #F7F7F7;
@@ -124,6 +125,12 @@ body {
     font-weight: 900;
     line-height: 120%;
     text-transform: uppercase;
+
+    &-gray {
+        color: $color-basic;
+        border: 2px solid $color-gray;
+        background: $color-gray;
+    }
 }
 
 // Slick Slider

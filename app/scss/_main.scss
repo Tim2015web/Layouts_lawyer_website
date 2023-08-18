@@ -345,7 +345,7 @@
 
             @media (max-width: 390px) {
                 min-width: 250px;
-                min-height: 348px;
+                height: 348px;
             }
 
             &-mask {
@@ -460,6 +460,10 @@
                 font-size: 16px;
                 font-weight: 700;
                 line-height: 120%;
+            }
+
+            .teams__card-title{
+                padding: 0 20px;
             }
 
             p {

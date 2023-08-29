@@ -1,14 +1,14 @@
 # Layouts - Lawyer Website
 
 <p>
+<img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
+<img alt="HTML5" height="20px" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
+<img alt="HTML5" height="24px" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
 <img alt="HTML5" height="28px" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
 
 
 
-
 <img alt="Git" height="28px" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white">
-
-
 
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
 

@@ -4,15 +4,7 @@
 
 Layout. Layouts - Lawyer Website
 
----
-
-[Показать проект](https://tim2015web.github.io/Layouts_lawyer_website/)
-
-Вёрстка. Layouts - Lawyer Website
-
-Оригинальный макет - https://www.figma.com/file/eTEMtLsjPBGYZwP5fpLnkq/lawyer_website?type=design&node-id=1-2&mode=design&t=2PHPwYDynRS0fAvi-0/
-
-
+[The original layout (Figma)](https://www.figma.com/file/eTEMtLsjPBGYZwP5fpLnkq/lawyer_website?type=design&node-id=1-2&mode=design&t=2PHPwYDynRS0fAvi-0/)
 
 ---
 
